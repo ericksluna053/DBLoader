@@ -1,6 +1,6 @@
 <?php
     $serverName = "localhost";//server-ip 
-    $connectionInfo = array("Database"=>"AdventureWorks2017");
+    $connectionInfo = array("Database"=>"AdventureWorks");
     $conn = sqlsrv_connect( $serverName, $connectionInfo);
     
     if( $conn ) {
